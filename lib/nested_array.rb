@@ -29,7 +29,7 @@ end
 
 def matrix_lookup(matrix, row, column)
   empty_array = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
-  matrix[column, row]
+  matrix[column][row]
 end
 
 # Given any matrix (array of arrays), a row index and a column index, 
